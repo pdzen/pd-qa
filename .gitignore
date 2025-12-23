@@ -5,7 +5,7 @@ config.php
 .php-cs-fixer.cache
 .phpunit.result.cache
 
-# --- Flarum 儲存與快取 (保留目錄但忽略內容) ---
+# --- Flarum 儲存與快取 (根目錄下的 storage) ---
 /storage/*.php
 /storage/cache/*
 /storage/formatter/*
@@ -16,10 +16,10 @@ config.php
 /storage/tmp/*
 /storage/views/*
 
-# --- 使用者上傳資源 (通常不進版本控制，需另外備份) ---
-/public/assets/avatars/*
-/public/assets/files/*
-/public/assets/rev-manifest.json
+# --- 使用者上傳資源 (根目錄下的 assets) ---
+/assets/avatars/*
+/assets/files/*
+/assets/rev-manifest.json
 
 # --- 操作系統產生的雜物 ---
 # MacOS
@@ -50,17 +50,12 @@ $RECYCLE.BIN/
 *.lnk
 
 # --- 常見編輯器與 IDE 設定 ---
-# VS Code
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-# JetBrains (PhpStorm, etc.)
 .idea/
-
-# Sublime Text
 *.sublime-project
 *.sublime-workspace
 
