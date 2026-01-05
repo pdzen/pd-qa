@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bf5d6c684e97654ce72c14ac58da710",
+    "content-hash": "970ac9dd2bbc46788cae8eb4cd515079",
     "packages": [
         {
             "name": "askvortsov/flarum-auto-moderator",
@@ -250,6 +250,63 @@
                 }
             ],
             "time": "2023-10-01T12:35:29+00:00"
+        },
+        {
+            "name": "clarkwinkelmann/flarum-ext-emojionearea",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clarkwinkelmann/flarum-ext-emojionearea.git",
+                "reference": "fc2d37e05021cc22196f1e0cff61cb5af52c88ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clarkwinkelmann/flarum-ext-emojionearea/zipball/fc2d37e05021cc22196f1e0cff61cb5af52c88ae",
+                "reference": "fc2d37e05021cc22196f1e0cff61cb5af52c88ae",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.2",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/4787"
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "far fa-smile-beam",
+                        "color": "#664500",
+                        "backgroundColor": "#fdca47"
+                    },
+                    "title": "Emoji Picker",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ClarkWinkelmann\\EmojioneArea\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Add EmojioneArea emoji picker to Flarum",
+            "support": {
+                "forum": "https://discuss.flarum.org/d/4787",
+                "issues": "https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues",
+                "source": "https://github.com/clarkwinkelmann/flarum-ext-emojionearea"
+            },
+            "time": "2025-03-18T21:27:39+00:00"
         },
         {
             "name": "components/font-awesome",
@@ -3493,6 +3550,183 @@
             "time": "2025-08-19T12:24:20+00:00"
         },
         {
+            "name": "fof/links",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/links.git",
+                "reference": "903c04d49a1eeb8157334f6f85abfe86a7bfe9cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/links/zipball/903c04d49a1eeb8157334f6f85abfe86a7bfe9cd",
+                "reference": "903c04d49a1eeb8157334f6f85abfe86a7bfe9cd",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.8.6",
+                "php": "^8.0"
+            },
+            "replace": {
+                "sijad/flarum-ext-links": "*"
+            },
+            "require-dev": {
+                "flarum/phpstan": "*",
+                "flarum/tags": "*",
+                "flarum/testing": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18335"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-bars",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Links",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Links\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manage Flarum primary navbar menu links",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/18335",
+                "issues": "https://github.com/FriendsOfFlarum/links/issues",
+                "source": "https://github.com/FriendsOfFlarum/links"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-10-09T11:51:47+00:00"
+        },
+        {
+            "name": "fof/user-directory",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/user-directory.git",
+                "reference": "00b7db57cc18c8a93c397b5fe2b1b450db5adadb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/user-directory/zipball/00b7db57cc18c8a93c397b5fe2b1b450db5adadb",
+                "reference": "00b7db57cc18c8a93c397b5fe2b1b450db5adadb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^1.7.0"
+            },
+            "replace": {
+                "flagrow/user-directory": "*"
+            },
+            "require-dev": {
+                "flarum/phpstan": "*",
+                "flarum/suspend": "*",
+                "flarum/testing": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5682"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
+                "branch-alias": {
+                    "1.x": "1.x-dev"
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "far fa-address-book",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF User Directory",
+                    "category": "feature",
+                    "optional-dependencies": [
+                        "flarum/suspend"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\UserDirectory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com/"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "The permission based public user directory extension for your Flarum forum.",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "extension",
+                "flarum",
+                "member list",
+                "user directory",
+                "user list"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/5682",
+                "issues": "https://github.com/FriendsOfFlarum/user-directory/issues",
+                "source": "https://github.com/FriendsOfFlarum/user-directory"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-08-13T12:51:47+00:00"
+        },
+        {
             "name": "franzl/whoops-middleware",
             "version": "2.0.0",
             "source": {
@@ -6090,6 +6324,82 @@
                 "source": "https://github.com/matthiasmullie/path-converter/tree/1.1.3"
             },
             "time": "2019-02-05T23:41:09+00:00"
+        },
+        {
+            "name": "michaelbelgium/flarum-discussion-views",
+            "version": "v7.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MichaelBelgium/flarum-discussion-views.git",
+                "reference": "aa024d1701c1e62d467e592d932f149ffe6b7918"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MichaelBelgium/flarum-discussion-views/zipball/aa024d1701c1e62d467e592d932f149ffe6b7918",
+                "reference": "aa024d1701c1e62d467e592d932f149ffe6b7918",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0",
+                "jaybizzle/crawler-detect": "^1.2"
+            },
+            "conflict": {
+                "flarumite/simple-discussion-views": "*",
+                "fof/discussion-views": "*"
+            },
+            "require-dev": {
+                "fof/merge-discussions": "^1.0"
+            },
+            "suggest": {
+                "flarum-lang/dutch": "Includes Dutch translation for this extension",
+                "flarum-lang/french": "Includes French translation for this extension",
+                "flarum-lang/polish": "Includes Polish translation for this extension"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/26269"
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "far fa-eye",
+                        "color": "#fff",
+                        "backgroundColor": "#88CC23"
+                    },
+                    "title": "Discussion views",
+                    "optional-dependencies": [
+                        "fof/merge-discussions"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Michaelbelgium\\Discussionviews\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael V.",
+                    "email": "michael@michaelbelgium.me"
+                }
+            ],
+            "description": "Add views to flarum discussions",
+            "support": {
+                "forum": "https://discuss.flarum.org/d/26269",
+                "issues": "https://github.com/MichaelBelgium/flarum-discussion-views/issues",
+                "source": "https://github.com/MichaelBelgium/flarum-discussion-views"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/MichaelBelgium",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-10-29T14:20:19+00:00"
         },
         {
             "name": "middlewares/base-path",
@@ -10469,6 +10779,63 @@
             "time": "2023-12-08T13:03:43+00:00"
         },
         {
+            "name": "tohsakarat/fancybox-plus",
+            "version": "1.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tohsakrat/fancybox-plus.git",
+                "reference": "4fcff59a60a02e2ff286eba101a0b860c8f46fe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tohsakrat/fancybox-plus/zipball/4fcff59a60a02e2ff286eba101a0b860c8f46fe5",
+                "reference": "4fcff59a60a02e2ff286eba101a0b860c8f46fe5",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.2.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-images",
+                        "color": "#fff",
+                        "backgroundColor": "#00c8b0"
+                    },
+                    "title": "Fancybox-Plus",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "tohsakarat\\fancybox\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tohsakarat",
+                    "email": "tohsakarat@github.cop"
+                }
+            ],
+            "description": "An extension of flarum, modified from drake/fancybox. Except fancybox from flamoji, spoiler. And using lazy load to prevent loading too much pics once.An extension of flarum, modified from drake/fancybox.",
+            "keywords": [
+                "extension",
+                "fancybox",
+                "flarum",
+                "images"
+            ],
+            "support": {
+                "issues": "https://github.com/tohsakarat/fancybox-plus/issues",
+                "source": "https://github.com/tohsakarat/fancybox-plus"
+            },
+            "time": "2023-06-06T18:50:58+00:00"
+        },
+        {
             "name": "voku/portable-ascii",
             "version": "1.6.1",
             "source": {
@@ -10541,6 +10908,72 @@
                 }
             ],
             "time": "2022-01-24T18:55:24+00:00"
+        },
+        {
+            "name": "wanecho/showfloor",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/echo886/flarum-showfloor",
+                "reference": "ebacb222855a3734f71760a5b14ae863fdb289d1"
+            },
+            "require": {
+                "flarum/core": "^1.2.0"
+            },
+            "require-dev": {
+                "flarum/testing": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-cli": {
+                    "modules": {
+                        "js": true,
+                        "css": true,
+                        "admin": true,
+                        "forum": true,
+                        "locale": true,
+                        "gitConf": true,
+                        "styleci": true,
+                        "jsCommon": true,
+                        "prettier": true,
+                        "typescript": true,
+                        "bundlewatch": false,
+                        "editorConfig": true,
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fa fa-list-ol",
+                        "color": "#ffffff",
+                        "backgroundColor": "#319e67"
+                    },
+                    "title": "Echo showfloor",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wanecho\\Showfloor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wanecho",
+                    "email": "229643466@qq.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "显示楼层",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2023-04-30T04:56:25+00:00"
         },
         {
             "name": "webmozart/assert",
