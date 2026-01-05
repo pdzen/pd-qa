@@ -21,6 +21,7 @@
         "docs": "https://docs.flarum.org/"
     },
     "require": {
+        "askvortsov/flarum-auto-moderator": "^0.1.3",
         "flarum-lang/chinese-traditional": "^1.28",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
