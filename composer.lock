@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f3fb125b07c50905d07f2daae755f16",
+    "content-hash": "4ea03690a665c8d79359c2a7d1755d6d",
     "packages": [
         {
             "name": "askvortsov/flarum-auto-moderator",
@@ -1889,59 +1889,6 @@
                 }
             ],
             "time": "2024-09-25T12:00:00+00:00"
-        },
-        {
-            "name": "flarum-lang/chinese-traditional",
-            "version": "v1.28.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum-lang/chinese-traditional.git",
-                "reference": "f37af2be43badeb8bb1118400c8188107e77f9ee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/chinese-traditional/zipball/f37af2be43badeb8bb1118400c8188107e77f9ee",
-                "reference": "f37af2be43badeb8bb1118400c8188107e77f9ee",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^1.5"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "extiverse": {
-                    "discuss": ""
-                },
-                "flarum-locale": {
-                    "code": "zh-Hant",
-                    "title": "正體中文"
-                },
-                "flarum-extension": {
-                    "icon": {
-                        "image": "icon.svg",
-                        "backgroundSize": "cover",
-                        "backgroundPosition": "center"
-                    },
-                    "title": "Chinese (Traditional)",
-                    "category": "language"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Chinese (Traditional) language pack for Flarum.",
-            "homepage": "https://github.com/flarum-lang/chinese-traditional",
-            "keywords": [
-                "flarum",
-                "locale",
-                "zh_Hant-locale"
-            ],
-            "support": {
-                "issues": "https://github.com/flarum-lang/chinese-traditional/issues",
-                "source": "https://github.com/flarum-lang/chinese-traditional"
-            },
-            "time": "2025-06-06T15:12:41+00:00"
         },
         {
             "name": "flarum/approval",
