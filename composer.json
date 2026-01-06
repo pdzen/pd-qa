@@ -47,6 +47,7 @@
         "fof/default-user-preferences": "^1.2",
         "fof/linguist": "^1.1",
         "fof/links": "^1.4",
+        "fof/nightmode": "^1.6",
         "fof/user-directory": "*",
         "michaelbelgium/flarum-discussion-views": "^7.4",
         "tohsakarat/fancybox-plus": "^1.0",
