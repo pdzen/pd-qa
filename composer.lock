@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "970ac9dd2bbc46788cae8eb4cd515079",
+    "content-hash": "4f3fb125b07c50905d07f2daae755f16",
     "packages": [
         {
             "name": "askvortsov/flarum-auto-moderator",
@@ -3548,6 +3548,141 @@
                 }
             ],
             "time": "2025-08-19T12:24:20+00:00"
+        },
+        {
+            "name": "fof/components",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/components.git",
+                "reference": "1e60224260b5a284a385968c6fa99ecd4a89c026"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/components/zipball/1e60224260b5a284a385968c6fa99ecd4a89c026",
+                "reference": "1e60224260b5a284a385968c6fa99ecd4a89c026",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Components\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "[NOT EXT] Reusable JavaScript components for your Flarum extension",
+            "keywords": [
+                "flarum",
+                "friendsofflarum"
+            ],
+            "support": {
+                "issues": "https://github.com/FriendsOfFlarum/components/issues",
+                "source": "https://github.com/FriendsOfFlarum/components/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-05-17T13:47:34+00:00"
+        },
+        {
+            "name": "fof/linguist",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/linguist.git",
+                "reference": "560ba7fa55b70d95065284945318349842e9bffd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/linguist/zipball/560ba7fa55b70d95065284945318349842e9bffd",
+                "reference": "560ba7fa55b70d95065284945318349842e9bffd",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.2",
+                "symfony/yaml": "^5.0"
+            },
+            "replace": {
+                "flagrow/linguist": "*"
+            },
+            "require-dev": {
+                "flarum/phpstan": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/7026"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-italic",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Linguist",
+                    "category": "language",
+                    "optional-dependencies": [
+                        "flamarkt/backoffice"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Linguist\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Customize translations",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "extension",
+                "flarum",
+                "locale",
+                "translation"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/7026",
+                "issues": "https://github.com/FriendsOfFlarum/linguist/issues",
+                "source": "https://github.com/FriendsOfFlarum/linguist"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-10-03T21:29:03+00:00"
         },
         {
             "name": "fof/links",

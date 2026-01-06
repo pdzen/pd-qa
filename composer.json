@@ -43,6 +43,8 @@
         "flarum/suspend": "*",
         "flarum/tags": "*",
         "fof/best-answer": "^1.6",
+        "fof/components": "^1.0",
+        "fof/linguist": "^1.1",
         "fof/links": "^1.4",
         "fof/user-directory": "*",
         "michaelbelgium/flarum-discussion-views": "^7.4",
