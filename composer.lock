@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4794f23903d6815984c2ab148b129750",
+    "content-hash": "4c12dfc489be014f5ee835800581ea91",
     "packages": [
         {
             "name": "askvortsov/flarum-auto-moderator",
@@ -3614,6 +3614,83 @@
                 }
             ],
             "time": "2021-05-17T13:47:34+00:00"
+        },
+        {
+            "name": "fof/default-user-preferences",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/default-user-preferences.git",
+                "reference": "cd74edff898ef3ec5ea62ef48cf09ab29cea1505"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/default-user-preferences/zipball/cd74edff898ef3ec5ea62ef48cf09ab29cea1505",
+                "reference": "cd74edff898ef3ec5ea62ef48cf09ab29cea1505",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.6.2"
+            },
+            "replace": {
+                "piotr-tokarczyk/flarum-user-default-preferences": "*"
+            },
+            "require-dev": {
+                "flarum/phpstan": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18607"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "fas fa-reply-all",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Default User Preferences",
+                    "category": "feature"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\DefaultUserPreferences\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FoF Team",
+                    "email": "team@friendsofflarum.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Configure the default user preferences for new users joining your forum",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/18607",
+                "issues": "https://github.com/FriendsOfFlarum/default-user-preferences/issues",
+                "source": "https://github.com/FriendsOfFlarum/default-user-preferences"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-11-27T14:25:04+00:00"
         },
         {
             "name": "fof/linguist",

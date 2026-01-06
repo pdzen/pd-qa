@@ -44,6 +44,7 @@
         "flarum/tags": "*",
         "fof/best-answer": "^1.6",
         "fof/components": "^1.0",
+        "fof/default-user-preferences": "^1.2",
         "fof/linguist": "^1.1",
         "fof/links": "^1.4",
         "fof/user-directory": "*",
