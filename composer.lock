@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "694fbb9979190a829402ff458eb015fb",
+    "content-hash": "8fbb8297970d1226c0b5d8abf8d63027",
     "packages": [
         {
             "name": "askvortsov/flarum-auto-moderator",
@@ -2894,16 +2894,16 @@
         },
         {
             "name": "flarum/nicknames",
-            "version": "v1.8.1",
+            "version": "v1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/nicknames.git",
-                "reference": "64e7e0e7c25628f08f02f641d9e929d8ab4f7a8c"
+                "reference": "ab4ab706ea778f26fb923b31a3f3a2f76c5ecbc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/nicknames/zipball/64e7e0e7c25628f08f02f641d9e929d8ab4f7a8c",
-                "reference": "64e7e0e7c25628f08f02f641d9e929d8ab4f7a8c",
+                "url": "https://api.github.com/repos/flarum/nicknames/zipball/ab4ab706ea778f26fb923b31a3f3a2f76c5ecbc6",
+                "reference": "ab4ab706ea778f26fb923b31a3f3a2f76c5ecbc6",
                 "shasum": ""
             },
             "require": {
@@ -2915,34 +2915,34 @@
             },
             "type": "flarum-extension",
             "extra": {
+                "flarum-cli": {
+                    "modules": {
+                        "js": true,
+                        "css": false,
+                        "admin": true,
+                        "forum": true,
+                        "gitConf": true,
+                        "styleci": true,
+                        "jsCommon": false,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "editorConfig": true,
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
                 "branch-alias": {
                     "dev-main": "1.x-dev"
                 },
                 "flarum-extension": {
-                    "title": "Nicknames",
-                    "category": "feature",
                     "icon": {
                         "name": "fas fa-user-tag",
-                        "backgroundColor": "#8E4529",
-                        "color": "#ffffff"
-                    }
-                },
-                "flarum-cli": {
-                    "modules": {
-                        "admin": true,
-                        "forum": true,
-                        "js": true,
-                        "jsCommon": false,
-                        "css": false,
-                        "gitConf": true,
-                        "githubActions": true,
-                        "prettier": true,
-                        "typescript": false,
-                        "bundlewatch": false,
-                        "backendTesting": true,
-                        "editorConfig": true,
-                        "styleci": true
-                    }
+                        "color": "#ffffff",
+                        "backgroundColor": "#8E4529"
+                    },
+                    "title": "Nicknames",
+                    "category": "feature"
                 }
             },
             "autoload": {
@@ -2970,7 +2970,7 @@
                     "type": "website"
                 }
             ],
-            "time": "2024-10-02T11:13:26+00:00"
+            "time": "2024-10-26T22:15:50+00:00"
         },
         {
             "name": "flarum/pusher",
